@@ -9,7 +9,12 @@ To get started we can just opt for a quick pip install.
 pip3 install miniwdl
 ```
 
-Followed by a command run like
+Followed by a CLI run like the following
+
+```
+miniwdl pipes/hello-world.wdl
+```
+
 
 ```
 miniwdl run pipes/workflow_tokenise.wdl \
@@ -19,3 +24,4 @@ miniwdl run pipes/workflow_tokenise.wdl \
   gene_median_dictionary_pkl=data/gene_median_dictionary.pkl \
   token_dictionary_pkl=data/token_dictionary.pkl
 ```
+
